@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>qbx_adminmenu</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="backdrop"></div>
+
+    <!-- ═══════════ Admin panel ═══════════ -->
+    <div id="panel" class="shell">
+        <div class="shell-inner">
+            <div class="orb o1"></div>
+            <div class="orb o2"></div>
+            <div class="orb o3"></div>
+            <canvas id="fx-canvas"></canvas>
+        </div>
+
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-logo" id="brand-logo"><i class="fa-solid fa-shield-halved"></i></div>
+                <div>
+                    <div class="brand-name" id="brand-name">QBOX</div>
+                    <div class="brand-sub" id="brand-sub">Admin Panel</div>
+                </div>
+            </div>
+            <nav class="nav" id="nav">
+                <div class="nav-indicator" id="nav-indicator"></div>
+            </nav>
+            <div class="me-card">
+                <div class="avatar" id="me-avatar">?</div>
+                <div class="info">
+                    <div class="name" id="me-name">-</div>
+                    <div class="sub" id="me-sub">On duty</div>
+                </div>
+            </div>
+        </aside>
+
+        <section class="main">
+            <header class="topbar">
+                <div class="page-title" id="page-title">
+                    <h1><span class="ico"><i class="fa-solid fa-gauge-high"></i></span><span class="txt">Dashboard</span></h1>
+                    <p></p>
+                </div>
+                <div class="top-chip"><i class="fa-solid fa-users"></i><span id="top-players">0</span></div>
+                <div class="top-chip"><i class="fa-regular fa-clock"></i><span id="top-clock">00:00</span></div>
+                <button class="icon-btn" id="btn-refresh" data-tip="refresh"><i class="fa-solid fa-rotate"></i></button>
+                <button class="icon-btn close" id="btn-close"><i class="fa-solid fa-xmark"></i></button>
+            </header>
+            <div class="content" id="content"></div>
+            <div class="signature"><i class="fa-solid fa-wand-magic-sparkles"></i>bazufix · qbx_adminmenu redesign</div>
+        </section>
+    </div>
+
+    <!-- ═══════════ Player report window ═══════════ -->
+    <div id="player-window" class="shell">
+        <div class="shell-inner">
+            <div class="orb o1"></div>
+            <div class="orb o2"></div>
+        </div>
+        <div class="pw-head">
+            <div class="brand-logo"><i class="fa-solid fa-headset"></i></div>
+            <div style="flex:1">
+                <h1 id="pw-title">Support</h1>
+                <p id="pw-sub"></p>
+            </div>
+            <button class="icon-btn close" id="pw-close"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="pw-body" id="pw-body"></div>
+    </div>
+
+    <div id="modal-root"><div class="dim"></div></div>
+    <div id="toasts"></div>
+    <canvas id="confetti"></canvas>
+
+    <script src="app.js"></script>
+</body>
+</html>
