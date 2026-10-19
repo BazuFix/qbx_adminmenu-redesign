@@ -1,12 +1,20 @@
 # qbx_adminmenu — Redesign
 
+[![Discord](https://img.shields.io/badge/Discord-Join%20our%20server-5865F2?logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/EzCWKFVhRw)
+[![YouTube](https://img.shields.io/badge/YouTube-Showcase-FF0000?logo=youtube&logoColor=white&style=for-the-badge)](https://www.youtube.com/watch?v=HLpYnjaFu8I)
+[![Bazu Store](https://img.shields.io/badge/Bazu%20Store-More%20scripts-8b5cf6?style=for-the-badge)](https://bazustore.tebex.io)
+
+💬 **Support, updates & more scripts on our Discord:** https://discord.gg/EzCWKFVhRw
+
 **[EN](#en) | [TR](#tr)**
 
 A complete NUI redesign of [Qbox-project/qbx_adminmenu](https://github.com/Qbox-project/qbx_adminmenu): a colourful, animated admin panel with a built-in report & DM system, ban list, character kill, offline player management, economy overview and more.
 
 > 🛒 **More FiveM scripts:** [**Bazu Store**](https://bazustore.tebex.io) — premium & free resources for Qbox / QBCore.
 
-![Dashboard](docs/dashboard.png)
+### 🎬 Preview
+
+[![Watch the showcase on YouTube](https://img.youtube.com/vi/HLpYnjaFu8I/maxresdefault.jpg)](https://www.youtube.com/watch?v=HLpYnjaFu8I)
 
 ---
 
@@ -29,6 +37,8 @@ A complete NUI redesign of [Qbox-project/qbx_adminmenu](https://github.com/Qbox-
 - English & Turkish translations included (other languages fall back to English).
 
 ### Screenshots
+
+![Dashboard](docs/dashboard.png)
 
 | | |
 |---|---|
@@ -86,7 +96,7 @@ Based on [Qbox-project/qbx_adminmenu](https://github.com/Qbox-project/qbx_adminm
 
 Licensed under the **GNU General Public License v3.0**, the same license as the original — see [LICENSE](LICENSE). You may use, modify and share it (also commercially), as long as any distributed version stays GPL-3.0 with its source code available.
 
-Redesign by **[BazuFix](https://github.com/BazuFix)** · 🛒 [**Bazu Store**](https://bazustore.tebex.io)
+Redesign by **[BazuFix](https://github.com/BazuFix)** · 💬 [**Discord**](https://discord.gg/EzCWKFVhRw) · 🛒 [**Bazu Store**](https://bazustore.tebex.io)
 
 ---
 
@@ -94,6 +104,10 @@ Redesign by **[BazuFix](https://github.com/BazuFix)** · 🛒 [**Bazu Store**](h
 
 [Qbox-project/qbx_adminmenu](https://github.com/Qbox-project/qbx_adminmenu) için baştan yazılmış, renkli ve animasyonlu bir NUI admin paneli. İçinde rapor & DM sistemi, ban listesi, CK, çevrimdışı oyuncu yönetimi, ekonomi ekranı ve daha fazlası var.
 
+> 💬 **Destek, güncellemeler ve diğer scriptler Discord sunucumuzda:** https://discord.gg/EzCWKFVhRw
+>
+> 🎬 **Tanıtım videosu:** https://www.youtube.com/watch?v=HLpYnjaFu8I
+>
 > 🛒 **Daha fazla FiveM scripti:** [**Bazu Store**](https://bazustore.tebex.io) — Qbox / QBCore için ücretli ve ücretsiz kaynaklar.
 
 ### Özellikler
@@ -135,4 +149,4 @@ Ayarlar, yetkiler ve komutlar için yukarıdaki İngilizce bölümdeki tablolara
 
 [Qbox-project/qbx_adminmenu](https://github.com/Qbox-project/qbx_adminmenu) (GPL-3.0) tabanlıdır; arayüz NUI olarak baştan yazılmış, rapor, ban listesi, CK, çevrimdışı oyuncu, ekonomi ve ped verme sistemleri eklenmiştir. Orijinalle aynı şekilde **GNU GPL v3.0** ile lisanslıdır: kullanabilir, değiştirebilir ve (ticari olarak da) paylaşabilirsiniz; dağıtılan her sürüm GPL-3.0 kalmalı ve kaynak koduyla birlikte sunulmalıdır.
 
-Redesign: **[BazuFix](https://github.com/BazuFix)** · 🛒 [**Bazu Store**](https://bazustore.tebex.io)
+Redesign: **[BazuFix](https://github.com/BazuFix)** · 💬 [**Discord**](https://discord.gg/EzCWKFVhRw) · 🛒 [**Bazu Store**](https://bazustore.tebex.io)
