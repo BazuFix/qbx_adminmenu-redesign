@@ -4,7 +4,7 @@ game 'gta5'
 description 'qbx_adminmenu redesign - NUI admin panel with reports/DM, bans, economy and more'
 author 'BazuFix (original: Qbox-project)'
 repository 'https://github.com/BazuFix/qbx_adminmenu-redesign'
-version '1.0.0'
+version '1.0.1'
 
 ox_lib 'locale'
 
